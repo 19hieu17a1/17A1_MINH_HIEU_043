@@ -1,0 +1,15 @@
+chieu_cao = [74, 74, 72, 72, 73, 69, 69, 71, 76, 71]
+print("Chiều cao theo inch là", chieu_cao)
+chieu_cao_met = [round(chieu_cao * 0.0254, 2) for chieu_cao in chieu_cao]
+print("3 chiều cao đầu tiên:", chieu_cao_met[:3])
+print("3 chiều cao cuối cùng:", chieu_cao_met[-3:])
+chieu_cao_trung_binh = sum(chieu_cao_met) / len(chieu_cao_met)
+chieu_cao_lon_nhat = max(chieu_cao_met)
+chieu_cao_nho_nhat = min(chieu_cao_met)
+print("Chiều cao trung bình: ",chieu_cao_trung_binh,"mét")
+print(f"Chiều cao lớn nhất: ",chieu_cao_lon_nhat, "mét")
+print(f"Chiều cao nhỏ nhất: ",chieu_cao_nho_nhat ,"mét")
+chieu_cao_met_tang_dan = sorted(chieu_cao_met)
+chieu_cao_met_giam_dan = sorted(chieu_cao_met, reverse=True)
+print("Danh sách chiều cao sau khi sắp xếp tăng dần:", chieu_cao_met_tang_dan)
+print("Danh sách chiều cao sau khi sắp xếp giảm dần:", chieu_cao_met_giam_dan)

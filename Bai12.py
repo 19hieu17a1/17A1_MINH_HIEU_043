@@ -1,0 +1,10 @@
+a = (1,4,9,2)
+print("a là: ", a)
+b = (5,6,7,8)
+print("b là: ",b)
+c = a + b
+print("c là: ", c)
+d = c = (sorted(c))
+print("d là: ",tuple(d))
+print("phần tử thứ 3 của d là: ", d[2])
+print("3 phần tử cuối cùng của d là: ", tuple(d[5:]))

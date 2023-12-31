@@ -14,5 +14,5 @@ try:
             
             
 except ValueError as a:
-    print(a)
-    print(list_n)
+    print("Lỗi nhập số!!!!")
+    

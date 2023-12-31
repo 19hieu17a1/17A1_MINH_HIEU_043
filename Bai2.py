@@ -7,7 +7,7 @@ try:
             elif n < 0:
                 raise ValueError ("Lỗi số âm!!!!!!")
             elif not n % 2:
-                 raise ValueError ("lỗi nhập chẵn !!!")
+                 raise ValueError ("lỗi nhập chẵn !!!!")
             if len(list_n) >= 4 and list_n[-4:] == [n,n,n,n]:
                  raise ValueError ("Lỗi nhập lặp lại !!!")
             list_n.append(n)
